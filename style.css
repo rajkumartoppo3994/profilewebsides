@@ -1,34 +1,27 @@
+/* Add your CSS styles here */
 body {
     font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
-    transition: background-color 0.5s ease;
 }
 
-.container {
+.profile-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 25px;
     text-align: center;
 }
 
-h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #45a049;
-}
+/* Add more styles as needed */
